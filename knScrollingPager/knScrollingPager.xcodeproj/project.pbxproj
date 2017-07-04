@@ -11,6 +11,11 @@
 		100703821F0B58C600815627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 100703811F0B58C600815627 /* Assets.xcassets */; };
 		100703851F0B58C600815627 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 100703831F0B58C600815627 /* LaunchScreen.storyboard */; };
 		100703951F0B593600815627 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100703941F0B593600815627 /* MainController.swift */; };
+		1007039A1F0B5DAC00815627 /* knConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100703971F0B5DAC00815627 /* knConstraints.swift */; };
+		1007039B1F0B5DAC00815627 /* Supporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100703981F0B5DAC00815627 /* Supporter.swift */; };
+		1007039C1F0B5DAC00815627 /* ScrollingPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100703991F0B5DAC00815627 /* ScrollingPager.swift */; };
+		1007039E1F0B5DD900815627 /* FixHeaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1007039D1F0B5DD900815627 /* FixHeaderController.swift */; };
+		100703A01F0B5DE000815627 /* ScrollingHeaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1007039F1F0B5DE000815627 /* ScrollingHeaderController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		100703841F0B58C600815627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		100703861F0B58C600815627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		100703941F0B593600815627 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		100703971F0B5DAC00815627 /* knConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = knConstraints.swift; sourceTree = "<group>"; };
+		100703981F0B5DAC00815627 /* Supporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Supporter.swift; sourceTree = "<group>"; };
+		100703991F0B5DAC00815627 /* ScrollingPager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollingPager.swift; sourceTree = "<group>"; };
+		1007039D1F0B5DD900815627 /* FixHeaderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FixHeaderController.swift; sourceTree = "<group>"; };
+		1007039F1F0B5DE000815627 /* ScrollingHeaderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollingHeaderController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +62,10 @@
 		100703791F0B58C600815627 /* knScrollingPager */ = {
 			isa = PBXGroup;
 			children = (
+				100703961F0B5D9400815627 /* Pager */,
 				100703941F0B593600815627 /* MainController.swift */,
+				1007039D1F0B5DD900815627 /* FixHeaderController.swift */,
+				1007039F1F0B5DE000815627 /* ScrollingHeaderController.swift */,
 				1007038C1F0B58D800815627 /* Other */,
 			);
 			path = knScrollingPager;
@@ -67,6 +80,16 @@
 				100703861F0B58C600815627 /* Info.plist */,
 			);
 			name = Other;
+			sourceTree = "<group>";
+		};
+		100703961F0B5D9400815627 /* Pager */ = {
+			isa = PBXGroup;
+			children = (
+				100703971F0B5DAC00815627 /* knConstraints.swift */,
+				100703981F0B5DAC00815627 /* Supporter.swift */,
+				100703991F0B5DAC00815627 /* ScrollingPager.swift */,
+			);
+			name = Pager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +166,11 @@
 			files = (
 				100703951F0B593600815627 /* MainController.swift in Sources */,
 				1007037B1F0B58C600815627 /* AppDelegate.swift in Sources */,
+				1007039B1F0B5DAC00815627 /* Supporter.swift in Sources */,
+				1007039A1F0B5DAC00815627 /* knConstraints.swift in Sources */,
+				1007039E1F0B5DD900815627 /* FixHeaderController.swift in Sources */,
+				1007039C1F0B5DAC00815627 /* ScrollingPager.swift in Sources */,
+				100703A01F0B5DE000815627 /* ScrollingHeaderController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

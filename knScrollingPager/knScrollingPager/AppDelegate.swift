@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func setupApp() {
         window = UIWindow(frame: UIScreen.main.bounds)
-        window!.rootViewController = MainController()
+        window!.rootViewController = UINavigationController(rootViewController: MainController())
         window!.backgroundColor = UIColor.white
         window?.makeKeyAndVisible()
     }
